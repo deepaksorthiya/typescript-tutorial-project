@@ -15,4 +15,5 @@ class Person {
 }
 
 let person = new Person("Alice", 30);
+console.log(person.greet());
 console.log(person);

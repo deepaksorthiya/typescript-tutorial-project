@@ -6,9 +6,15 @@
 
 # Getting Started
 
-### Compile Typescript file
+### Compile all files
 
 ```bash
+npx tsc
+```
+
+### Compile specific file
+
+```
 npx tsc index.ts --outDir out
 ```
 
